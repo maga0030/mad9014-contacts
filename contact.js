@@ -4,7 +4,7 @@ let contact_to_set;
 let selectedPerson;
 
 const init = function() {
-    if (localStorage.getItem(KEY) == "[]") {
+    if (localStorage.getItem(KEY) === "[]") {
         contacts = contactStarter;
         localStorage.setItem(KEY, JSON.stringify(contactStarter));
     } else {
