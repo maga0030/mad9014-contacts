@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Manager</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Contact Manager</h1>
+        
+    </header>
+    <main>
+        <ul class="contacts">
+        </ul>
+    </main>
+    <footer>
+        <div class="fab"></div>
+    </footer>
+    
+    <div class="overlay">&nbsp;</div>
+    
+    <section class="contactform">
+        <form>
+            <input type="text" id="input-name" placeholder="Full Name" required>
+            <input type="email" id="input-email" placeholder="E-mail Address" required>
+            <input type="text" id="input-phone" placeholder="Phone Number" required>
+            <button id="button-cancel">Cancel</button>
+            <button id="button-save">Save Contact</button>
+        </form>
+    </section>
+    
+    <section class="editform">
+        <form>
+            <input type="text" id="edit-name" placeholder="Full Name" required>
+            <input type="email" id="edit-email" placeholder="E-mail Address" required>
+            <input type="text" id="edit-phone" placeholder="Phone Number" required>
+            <button id="edit-button-cancel">Cancel</button>
+            <button id="edit-button-save">Save Contact</button>
+        </form>
+    </section>
+    
+    <script src="contact.js"></script>
+    <script src="starter.js"></script>
+</body>
+
+</html>
